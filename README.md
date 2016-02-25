@@ -1,6 +1,6 @@
 # route-hasher
 [![NPM version][npm-image]][npm-url]
-[![Downloads][downloads-image]][npm-url]
+<!--[![Downloads][downloads-image]][npm-url]-->
 
 Middleware for [express][express-url] or [connect][connect-url] that redirects requests to the root path `/` with `url.pathname` written into `url.hash`.
 
