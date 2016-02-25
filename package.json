@@ -1,0 +1,19 @@
+{
+  "name": "route-hasher",
+  "description": "Middleware for express or connect that redirects requests to the root path with `url.pathname` written into `url.hash`",
+  "version": "0.0.1",
+  "repository": "hiebj/route-hasher",
+  "author": "Jonathan Hieb",
+  "keywords": [
+    "express",
+    "connect",
+    "spa",
+    "route",
+    "router",
+    "ng-route",
+    "rewrite",
+    "hash",
+    "hashbang"
+  ],
+  "license": "MIT"
+}
