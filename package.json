@@ -1,7 +1,7 @@
 {
   "name": "route-hasher",
-  "description": "Middleware for express or connect that redirects requests to the root path with `url.pathname` written into `url.hash`",
-  "version": "0.0.1",
+  "description": "Middleware for express or connect that redirects requests to the root path with url.pathname written into url.hash",
+  "version": "0.0.2",
   "repository": "hiebj/route-hasher",
   "author": "Jonathan Hieb",
   "keywords": [
