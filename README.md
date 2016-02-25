@@ -1,4 +1,6 @@
 # route-hasher
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
 
 Middleware for [express][express-url] or [connect][connect-url] that redirects requests to the root path `/` with `url.pathname` written into `url.hash`.
 
@@ -33,6 +35,9 @@ express()
 `string`
 A string to prepend to `url.pathname` before writing it into `url.hash`. For example, if `'!'` is used (as in the example), a request to `/users/hiebj` is redirected to `/#!/users/hiebj`.
 
+[npm-image]: http://img.shields.io/npm/v/route-hasher.svg
+[npm-url]: https://npmjs.org/package/route-hasher
+[downloads-image]: http://img.shields.io/npm/dm/route-hasher.svg
 [express-url]: https://github.com/expressjs/express
 [connect-url]: https://github.com/senchalabs/connect
 [angular-url]: https://angularjs.org/
